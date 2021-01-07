@@ -7,7 +7,8 @@ This is a TODO api as a step by step tutorial to create a RESTful API using [Fla
 * Frontend with React
 * User login
 * Docker
-* Cloud to AWS K8S
+* AWS ELB  
+* K8S
 
 ## Installation
 
@@ -61,7 +62,7 @@ Traceback (most recent call last):
 This is expected, as we donot have any code written yet, let's get start with the very first code.
 
 3. Write the code
-File name is  **./app/app.py** 
+File name is  **./app/run.py** 
 ``` python
 from flask import Flask
 
@@ -294,3 +295,7 @@ docker container ls
 curl http://localhost:8080
 curl http://localhost:8080/posts
 ```
+
+##  Swagger/OpenAPI UI
+
+[OpenAPI](https://www.openapis.org/)
